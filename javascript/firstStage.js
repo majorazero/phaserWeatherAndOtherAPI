@@ -9,6 +9,8 @@ firstStage.preload = function(){
 firstStage.create = function(){
   //creates sky
   firstStage.sky = game.add.sprite(0,0,"sky","sky.png");
+  firstStage.sky.tint = "0x2F4F4F";
+  callWeather();
 
   //creates player
   firstStage.player = game.add.sprite(0,0,"player","SillyDude_0000.png");
@@ -21,9 +23,13 @@ firstStage.create = function(){
   firstStage.player.animations.add("rIdle",Phaser.Animation.generateFrameNames("SillyDude_000",7,9,".png"),7,true);
   firstStage.player.animations.add("rWalk",Phaser.Animation.generateFrameNames("SillyDude_00",10,13,".png"),10,true);
   firstStage.player.animations.add("lWalk",Phaser.Animation.generateFrameNames("SillyDude_000",3,6,".png"),10,true);
+
+
   //creates ground
   firstStage.platforms = game.add.physicsGroup();
   firstStage.platforms.create(0,game.height*0.9,"ground");
+
+
   //stretches to across the screen
   firstStage.platforms.create(400,game.height*0.9,"ground");
   firstStage.platforms.setAll("body.immovable",true);
