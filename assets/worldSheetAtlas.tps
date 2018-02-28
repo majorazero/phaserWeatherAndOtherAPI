@@ -199,8 +199,8 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0000_Frame-1.png</key>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0007_Frame-8.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0000.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0007.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -213,8 +213,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0001_Frame-2.png</key>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0008_Frame-9.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0001.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0008.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -227,8 +227,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0002_Frame-3.png</key>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0009_Frame-10.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0002.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0009.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -241,8 +241,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0003_Frame-4.png</key>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0010_Frame-11.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0003.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0010.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -255,8 +255,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0004_Frame-5.png</key>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0011_Frame-12.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0004.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0011.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -269,8 +269,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0005_Frame-6.png</key>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0012_Frame-13.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0005.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0012.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -283,8 +283,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0006_Frame-7.png</key>
-            <key type="filename">../../../../Art/SillySprite/SillyDude_0013_Frame-14.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0006.png</key>
+            <key type="filename">../../../../Art/SillySprite/SillyDude_0013.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -326,22 +326,22 @@
         </map>
         <key>fileList</key>
         <array>
-            <filename>../../../../Art/SillySprite/SillyDude_0000_Frame-1.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0001_Frame-2.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0002_Frame-3.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0003_Frame-4.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0004_Frame-5.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0005_Frame-6.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0006_Frame-7.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0007_Frame-8.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0008_Frame-9.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0009_Frame-10.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0010_Frame-11.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0011_Frame-12.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0012_Frame-13.png</filename>
-            <filename>../../../../Art/SillySprite/SillyDude_0013_Frame-14.png</filename>
             <filename>../../PhaserShooterPractice/assets/sky.png</filename>
             <filename>../../PhaserShooterPractice/assets/platform.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0000.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0002.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0003.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0004.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0005.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0006.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0007.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0009.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0010.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0011.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0012.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0013.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0001.png</filename>
+            <filename>../../../../Art/SillySprite/SillyDude_0008.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
