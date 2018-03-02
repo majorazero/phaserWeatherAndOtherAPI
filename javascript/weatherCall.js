@@ -17,3 +17,29 @@ function callWeather(){
     }
   });
 }
+
+const wInfo = (req, res) => {
+    console.log(req.ipAddr)  //eans computer
+    if (eansComputer){
+       res.send(wInfo.json)
+    }
+}
+localhost:7777
+https://127.0.0.1:7777
+www.andy.com/whoami  <- request
+
+respsonse -> "{name: 'Andy!!!'}"
+
+
+io.req("danAddr.com");
+
+
+//phase socketio
+io.emit("weatherInfoZ", {}, function(res){
+
+});
+
+//nodejs socketio
+io.on("weatherInfo", function(data){
+    io.emit(data)
+})

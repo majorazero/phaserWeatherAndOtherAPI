@@ -13,7 +13,7 @@ firstStage.create = function(){
   callWeather();
 
   //creates player
-  firstStage.player = game.add.sprite(0,0,"player","SillyDude_0000.png");
+  firstStage.player = game.add.sprite(0,0,"player","SillyDude$$_0000.png"); //str.replace("$$", "");
   game.physics.arcade.enable(firstStage.player);
   firstStage.player.body.gravity.y = 500;
   firstStage.player.body.collideWorldBounds = true;
