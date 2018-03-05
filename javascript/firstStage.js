@@ -1,4 +1,5 @@
 var firstStage = {};
+var wCall = require(['./weatherCall']);
 
 firstStage.preload = function(){
   game.load.atlasJSONHash("ground","assets/worldSheet.png","assets/worldSheet.json","platform.png");
@@ -9,11 +10,11 @@ firstStage.preload = function(){
 firstStage.create = function(){
   //creates sky
   firstStage.sky = game.add.sprite(0,0,"sky","sky.png");
-  firstStage.sky.tint = "0x2F4F4F";
-  callWeather();
+  //firstStage.sky.tint = "0x2F4F4F";
+  //callWeather();
 
   //creates player
-  firstStage.player = game.add.sprite(0,0,"player","SillyDude$$_0000.png"); //str.replace("$$", "");
+  firstStage.player = game.add.sprite(0,0,"player","SillyDude_0000.png"); //str.replace("$$", "");
   game.physics.arcade.enable(firstStage.player);
   firstStage.player.body.gravity.y = 500;
   firstStage.player.body.collideWorldBounds = true;
@@ -41,22 +42,12 @@ firstStage.update = function(){
 
   var cursor = game.input.keyboard.createCursorKeys();
   game.physics.arcade.collide(firstStage.player,firstStage.platforms);
-  firstStage.idle(cursor);
+  //firstStage.idle(cursor);
   firstStage.movement(cursor);
 
 };
-
-firstStage.idle = function(cursor){
-  // if(cursor.right.onUp){
-  //   firstStage.player.animations.play("rIdle");
-  // }
-  // else if (cursor.left.onUp){
-  //   firstStage.player.animations.play("lIdle");
-  // }
-};
-
 firstStage.movement = function(cursor){
-  firstStage.player.animations.play("rIdle");
+  //firstStage.player.animations.play("rWalk");
   if(cursor.left.isDown){
     firstStage.player.body.velocity.x = -firstStage.player.walkSpeed;
     firstStage.player.animations.play("lWalk");
@@ -65,7 +56,9 @@ firstStage.movement = function(cursor){
     firstStage.player.body.velocity.x = firstStage.player.walkSpeed;
     firstStage.player.animations.play("rWalk");
   }
-
+  else{
+    firstStage.player.animations.play("rIdle");
+  }
   if(cursor.up.isDown){
     firstStage.player.body.velocity.y = firstStage.player.jumpSpeed;
   }
